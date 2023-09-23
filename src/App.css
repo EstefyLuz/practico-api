@@ -1,38 +1,50 @@
+/* Estilos para la clase .App (el contenedor principal) */
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Estilos para el componente General */
+header {
+  background-color: #585896;
   color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  background-color: #83b7ee;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.conteiner-general-pronostico{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+}
+
+.sub-conteiner-general-pronostico{
+  border: solid;
+  border-radius: 13px;
+  /* padding: 20px; */
+  margin-bottom: 20px;
+}
+
+.container-InfoClima{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas en cada fila */
+  gap: 20px; /* Espacio entre elementos */
+}
+
+.sub-container{
+  border: solid;
+  border-radius: 13px;
+  /* padding: 20px; */
 }
