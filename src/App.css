@@ -25,12 +25,11 @@ button {
 
 .conteiner-general-pronostico{
   display:grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 
 }
 
-.sub-conteiner-general-pronostico{
+.sub-conteiner-general-pronostico, .pronostico{
   border: solid;
   border-radius: 13px;
   /* padding: 20px; */
@@ -39,10 +38,9 @@ button {
 
 .container-InfoClima{
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas en cada fila */
-  gap: 20px; /* Espacio entre elementos */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
 }
-
 .sub-container{
   border: solid;
   border-radius: 13px;
